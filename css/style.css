@@ -9,5 +9,16 @@
     --color-white: #FFFFFF;
     --font-raleway: 'Raleway', sans-serif;
     --font-open-sans: 'Open Sans', sans-serif;
+    --button-radius: 40px;
+
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 0 auto;
+    width: 1352px;
 
 }
