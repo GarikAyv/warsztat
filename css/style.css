@@ -69,35 +69,41 @@ a {
     border-color: var(--color-primary);
 }
 
-.nav-ul li{
+.nav-ul li {
     padding: 0 26px;
 }
-.nav-ul li:last-child{
+
+.nav-ul li:last-child {
     padding: 0 0;
 }
-.opening{
+
+.opening {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.opening-main{
+
+.opening-main {
     text-align: center;
     margin-top: 130px;
 }
-.opening-header{
+
+.opening-header {
     font-family: var(--font-raleway);
     font-size: 49px;
-    color: var( --color-black);
+    color: var(--color-black);
     text-transform: capitalize;
 }
-.opening-text{
+
+.opening-text {
     font-family: var(--font-open-sans);
     font-size: 16px;
-    color: var( --color-black);
+    color: var(--color-black);
     margin-top: 20px;
     margin-bottom: 60px;
 }
-.btn{
+
+.btn {
     padding: 22px 157px;
     background-color: var(--color-primary);
     border-radius: var(--button-radius);
@@ -106,7 +112,88 @@ a {
     font-weight: 700;
     color: var(--color-white);
 }
-.opening-img{
+
+.opening-img {
     height: auto;
     width: 100%;
+}
+
+.statistics {
+    padding-top: 100px;
+}
+
+.container h2 {
+    font-family: var(--font-raleway);
+    font-size: 36px;
+    color: var(--color-black);
+    text-align: center;
+}
+
+.statistics-main-boxes {
+    display: flex;
+    justify-content: space-between;
+    margin: 100px auto 120px;
+    max-width: 800px;
+    text-align: center;
+}
+
+.statistics-boxes {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+}
+
+.statistics-number {
+    font-family: var(--font-raleway);
+    font-weight: 800;
+    color: var(--color-black);
+    margin-top: 14px;
+    letter-spacing: 6px;
+}
+
+.statistics-text {
+    font-family: var(--font-raleway);
+    font-size: 17px;
+    margin-top: 19px;
+    color: var(--color-grey);
+}
+
+.statistics-main {
+    height: 63px;
+    width: 63px;
+    border-radius: 50%;
+    position: relative;
+}
+
+.box-img {
+    position: absolute;
+}
+
+.statistics-boxes:nth-child(1) .statistics-main {
+    background-color: var(--color-redish);
+}
+
+.statistics-boxes:nth-child(1) .box-img {
+    top: 0;
+    left: 29px;
+}
+
+.statistics-boxes:nth-child(2) .statistics-main {
+    background-color: var(--color-primary);
+}
+
+.statistics-boxes:nth-child(2) .box-img {
+    top: 14px;
+    left: 21px;
+}
+
+.statistics-boxes:nth-child(3) .statistics-main {
+    background-color: var(--color-green);
+}
+
+.statistics-boxes:nth-child(3) .box-img {
+    top: 6px;
+    left: 31px;
 }
